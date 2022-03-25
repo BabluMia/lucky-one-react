@@ -2,7 +2,7 @@
     {
         "id": 1,
         "brand":"Apple",
-        "name": "Mac-Book Pro M1 8/256GB",
+        "name": "Mac-Book  M1 ",
         "price": 1260,
         "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg"
         
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "brand":"Apple",
-        "name": "Mac-Book Pro M1 8/256GB",
+        "name": "Mac-Book Pro M1 ",
         "price": 1520,
         "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg"
         
@@ -28,7 +28,7 @@
         "brand":"ASUS",
         "name": "Vivo Book 13",
         "price": 499,
-        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/zephyrus-g14-ga401q/zephyrus-g14-ga401q-01-500x500.jpg"
+        "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07961089.png?imwidth=430&imdensity=1"
         
     },
     {
@@ -36,21 +36,21 @@
         "brand":"ASUS",
         "name": "Vivo Book 14 Pro",
         "price": 799,
-        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-pro-16x-oled/vivobook-pro-16x-oled-01-500x500.jpg"
+        "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07961089.png?imwidth=430&imdensity=1"
         
     },
     {
         "id": 6,
         "brand":"ASUS",
-        "name": "Asus ZenBook 14 Flip",
+        "name": "Asus ZenBook 14 ",
         "price": 1420,
-        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/zenbook-14-flip-oled-up5401ea/zenbook-14-flip-oled-up5401ea-01-500x500.jpg"
+        "img": "https://www.hp.com/us-en/shop/app/assets/images/product/17N20AV_MB/center_facing.png?_=1637921751916&imwidth=430&imdensity=1"
         
     },
     {
         "id": 7,
         "brand":"HP",
-        "name": "HP Pavilion Laptop - 15t",
+        "name": "HP Pavilion 15t",
         "price": 699,
         "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07961089.png?imwidth=430&imdensity=1"
         
@@ -60,7 +60,7 @@
         "brand":"HP",
         "name": "HP ENVY 17t",
         "price": 899,
-        "img": "https://www.hp.com/us-en/shop/pdp/hp-17z-cp000-laptop-pc-touch-optional-2v2h8av-1"
+        "img": "https://www.hp.com/us-en/shop/app/assets/images/product/17N20AV_MB/center_facing.png?_=1637921751916&imwidth=430&imdensity=1"
         
     },
     {
@@ -90,7 +90,7 @@
     {
         "id": 12,
         "brand":"LENOVO",
-        "name": "IdeaPad Gaming 3i (15”)",
+        "name": "IdeaPad Gaming ",
         "price": 870,
         "img": "https://www.lenovo.com/medias/lenovo-laptop-legion-ideapad-3-gaming-hero.png?context=bWFzdGVyfHJvb3R8Njc3MzN8aW1hZ2UvcG5nfGhlZS9oNWYvMTA4NTEwODU3MTM0MzgucG5nfGM3MzZhMWRhMWMxMDFiOTUwOWE4ZjVmNjY3Nzk0ZWIxMWZkYzhhOGRiMzE5MjUyOWY3NGE0OTNkYWE0YjE1MjQ"
         
