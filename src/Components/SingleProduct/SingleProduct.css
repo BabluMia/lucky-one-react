@@ -1,6 +1,11 @@
 .custom{
     border-radius: 20px;
     padding: 20px 10px;
+
+}
+.custom:hover{
+    transform: translateY(-10px);
+    transition: .6s all ease;
 }
 img{
     overflow: hidden;
@@ -12,8 +17,9 @@ img{
     outline: none;
     cursor: pointer;
     padding: 8px 25px;
-    border-radius: 3px;
+    border-radius: 6px;
     font-weight: bold;
+    margin-top: 10px;
 }
 .custom-btn:hover{
     background-color: aqua;

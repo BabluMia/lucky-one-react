@@ -13,10 +13,28 @@ const Products = () => {
 
   const [addName, setAddName] = useState([]);
   const click = (product) => {
-    const newName = [...addName, product.name];
-    setAddName(newName);
+    if (addName.length < 4){
+      const newName = [...addName, product.name];
+      setAddName(newName);
+    }
+    else{
+      alert('You added 4 item ')
+    }
   };
+  const clearArray = () =>{
+    setAddName([])
+  }
+  const [randomValue , setRandomValue] = useState('')
+  
+const random = ()=> {
+    setRandomValue(Math.floor(Math.random()*addName.length)) 
+  // console.log(randomNunmber);
+  // console.log(addName[randomNunmber]);
+}
+// console.log(randomValue);
+// console.log(addName);
 
+  
 
   return (
     <div className="main">
@@ -34,13 +52,13 @@ const Products = () => {
           <h4 className="text-center">Your Item</h4>
           <ul>
             {addName.map((add) => (
-              <li className="my-3" key={add}>
+              <li className={addName[randomValue] === add && "text-primary"} key={add}>
                 <BsCheckCircleFill></BsCheckCircleFill> <span className="ms-2">{add}</span>
               </li>
             ))}
           </ul>
-          <button className="custom-btn ms-2">Choose One </button>
-          <button className="custom-btn ms-2" > Clear Cart </button>
+          <button className="custom-btn ms-2" onClick={random}>Choose One </button>
+          <button className="custom-btn ms-2" onClick={()=>{clearArray()}}> Clear Cart </button>
         </div>
       </div>
     </div>
