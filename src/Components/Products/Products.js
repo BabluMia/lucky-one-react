@@ -39,7 +39,7 @@ const Products = () => {
               </li>
             ))}
           </ul>
-          <button className="custom-btn ms-2">Choose One </button> <br /> <br />
+          <button className="custom-btn ms-2">Choose One </button>
           <button className="custom-btn ms-2" > Clear Cart </button>
         </div>
       </div>
