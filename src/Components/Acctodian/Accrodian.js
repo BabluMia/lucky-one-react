@@ -5,7 +5,7 @@ const Accrodian = () => {
   return (
     <div className="mx-auto  w-75  my-5">
         <h1 className="my-4 text-center lh-base">QNA</h1>
-      <Accordion defaultActiveKey="0">
+      <Accordion >
         <Accordion.Item eventKey="0">
           <Accordion.Header>How React Work's?</Accordion.Header>
           <Accordion.Body>

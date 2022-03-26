@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
 .custom{
     border-radius: 20px;
     padding: 20px 10px;
     overflow-x: hidden !important;
 }
-.custom:hover{
+
+.card{
+    cursor: pointer !important;
+}
+.card:hover{
     transform: translateY(-10px);
     transition: .6s all ease;
 }
 img{
     overflow: hidden;
-    /* height: 200px; */
+   
 }
 .custom-btn{
     border: 2px solid rgb(190, 156, 92);
@@ -20,6 +28,7 @@ img{
     border-radius: 6px;
     font-weight: bold;
     margin-top: 10px;
+    color: aqua;
 }
 .custom-btn:hover{
     background-color: aqua;

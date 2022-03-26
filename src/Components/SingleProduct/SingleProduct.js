@@ -11,7 +11,7 @@ const SingleProduct = (props) => {
       <Card className="custom" data-aos="fade-left" style={{ width: "18rem" }}>
         <Card.Img variant="top"  src={img} />
         <Card.Body>
-          <Card.Title>Model:{name}</Card.Title>
+          <Card.Title>Model: {name}</Card.Title>
           <h6>Brand: {brand}</h6>
           <h6>Price :${price}</h6>
           <button className="custom-btn" onClick={()=>click(props.product)}>Add Cart <FaCartPlus></FaCartPlus></button>

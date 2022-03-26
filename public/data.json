@@ -58,7 +58,7 @@
     {
         "id": 8,
         "brand":"HP",
-        "name": "HP ENVY 17t",
+        "name": " HP ENVY 17t",
         "price": 899,
         "img": "https://www.hp.com/us-en/shop/app/assets/images/product/17N20AV_MB/center_facing.png?_=1637921751916&imwidth=430&imdensity=1"
         
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "brand":"HP",
-        "name": "HP EliteBook x360",
+        "name": " HP EliteBook",
         "price": 1520,
         "img": "https://www.hp.com/us-en/shop/app/assets/images/product/17N20AV_MB/center_facing.png?_=1637921751916&imwidth=430&imdensity=1"
         
