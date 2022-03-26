@@ -14,8 +14,10 @@ const Products = () => {
   const [addName, setAddName] = useState([]);
   const click = (product) => {
     if (addName.length < 4){
-      const newName = [...addName, product.name];
-      setAddName(newName);
+      if(!addName.includes(product.name)){
+        const newName = [...addName, product.name];
+        setAddName(newName);
+      }
     }
   };
   // for clear array
@@ -33,7 +35,7 @@ const random = ()=> {
 
   return (
     <div className="main">
-      <div className="row  container my-5 mx-3  py-5">
+      <div className="row  container my-5 mx-auto  py-5 ">
       <div data-aos="fade-right" className="col-lg-3 mb-5">
           <h4 className="text-center me-5">Your Item</h4>
           <ul>
