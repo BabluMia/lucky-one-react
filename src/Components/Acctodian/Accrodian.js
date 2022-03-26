@@ -19,22 +19,17 @@ const Accrodian = () => {
             <div className="row">
               <div className="col-lg-6 p-4">
                 <div>
-                  Props:
-                 <p>আমরা এক কম্পোনেন্ট থেকে অন্য কম্পোনেন্টে Props আদান প্রদান করে থাকি ।</p> 
-                 <p>Props হলো কম্পোনেন্টের এট্রিবিউট</p>
-                  <p>Props চেইঞ্জ হয় না।</p>
-                  <p></p>
-                  <p></p>
+                  <h4 className="text-center">Props:</h4>
+                 <p>আমরা এক কম্পোনেন্ট থেকে অন্য কম্পোনেন্টে Props আদান প্রদান করে থাকি । <br /> Props হলো কম্পোনেন্টের এট্রিবিউট । <br /> Props চেইঞ্জ হয় না।</p> 
                 </div>
               </div>
               <div className="col-lg-6 p-4">
               <div>
-                  State:
-                  <p>আর State নিয়ে কম্পোনেন্টের ভিতরে কাজ করে থাকি।</p>
-                   <p>State  হলো কম্পোনেন্টের অবজেক্ট।</p>
-                   <p>State চেইঞ্জ হয় এর উপর ডিপেন্ড করে কম্পোনেন্ট রেন্ডার হয়।</p>
-                   <p></p>
-                   <p></p>
+                   <h4 className="text-center">State:</h4>
+                  <p>আর State নিয়ে কম্পোনেন্টের ভিতরে কাজ করে থাকি। <br />
+                    State  হলো কম্পোনেন্টের অবজেক্ট। <br />
+                    State চেইঞ্জ হয় এর উপর ডিপেন্ড করে কম্পোনেন্ট রেন্ডার হয়।
+                  </p>
                 </div>
               </div>
             </div>
@@ -43,13 +38,11 @@ const Accrodian = () => {
         <Accordion.Item eventKey="2">
           <Accordion.Header>How To useState() works??</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <p>
+            useState() হলো রিয়েক্টের একটি গুরুত্বপূর্ণ হুক। এর দ্বারা কার্যকরী ভেরিয়েবল State এর মধ্যে সংরক্ষণ করা যায় যা পরবর্তী সময়ে ইউস করা যায়।  useState() ভেলু আপডেট করার জন্য ভেরিয়েবল সহ একটি ফাংশন প্রদান করে। প্রতিটি আপডেট কাউন্ট করে এবং তা State এ সেট করে।
+            useState এর একটি ডিফল্ট মান সব সময় দেওয়া থাকে যাতে করে চেইঞ্জ হলে ডিফল্ট মান এর যায়গায় নতুন মান কাউন্ট হয়। ডিফল্ট মান হিসেবে বুলিয়ান,স্ট্রিং, [ ],  নাম্বার দেওয়া যায়।
+
+            </p>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

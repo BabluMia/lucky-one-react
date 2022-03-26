@@ -29,8 +29,6 @@ const Products = () => {
   
 const random = ()=> {
     setRandomValue(Math.floor(Math.random()*addName.length)) 
-  // console.log(randomNunmber);
-  // console.log(addName[randomNunmber]);
 }
 
   return (
