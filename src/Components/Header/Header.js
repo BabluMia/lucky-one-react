@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-       <h1 className='lh-base'>grab you'r item here</h1>
+       <h1 className='lh-base'>pick you'r item here</h1>
     );
 };
 

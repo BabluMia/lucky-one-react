@@ -44,8 +44,7 @@ const random = ()=> {
           <h4 className="text-center me-5">Selected Item</h4>
           <ul>
             {addName.map((add) => (
-              <li key={add} data-aos="fade-right"
-              data-aos-offset="300">
+              <li key={add} >
                 <BsCheckCircleFill></BsCheckCircleFill> <span className="ms-2">{add}</span>
               </li>
             ))}
