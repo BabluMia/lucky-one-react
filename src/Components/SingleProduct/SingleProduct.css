@@ -1,7 +1,7 @@
 .custom{
     border-radius: 20px;
     padding: 20px 10px;
-
+    overflow-x: hidden !important;
 }
 .custom:hover{
     transform: translateY(-10px);

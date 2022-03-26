@@ -1,5 +1,6 @@
 .main{
     background-color: aqua;
+    overflow: hidden;
 }
 ul{
     margin-top: 20px;

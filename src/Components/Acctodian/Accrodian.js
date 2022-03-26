@@ -3,11 +3,11 @@ import { Accordion } from "react-bootstrap";
 
 const Accrodian = () => {
   return (
-    <div className="mx-auto w-75 my-5">
+    <div className="mx-auto  w-75  my-5">
         <h1 className="my-4 text-center">QNA</h1>
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Accordion Item #1</Accordion.Header>
+          <Accordion.Header>How React Work's?</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -19,7 +19,7 @@ const Accrodian = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>State Vs Props</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -31,7 +31,7 @@ const Accrodian = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>How To useState() works??</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
