@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Name Of Project : Buy Now || React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this project using react 
+#Live Link
+[Go to live link](https://buy-now-react-by-bablu.netlify.app/).
 
 ## Available Scripts
 
